@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="" method="post" id="formregister">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" required">
+        
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido" autofocus>
+
+        <label for="dni">DNI: </label>
+        <input type="number" name="dni" id="dni" maxlength="8">
+
+        <label for="password">Password: </label>
+        <input type="text" name="password" id="password" maxlength="8">
+        
+        <label for="email">Email:  </label>
+        <input type="text" name="email" id="email" placeholder="augusto@gmail.com" pattern="([])">
+
+        <input type="submit" value="Enviar Datos">
+
+        
+    </form>
+    <div>
+        <button>
+            <a href="../index.html#piedepagina">Ruta Relativa</a>
+        </button>
+    </div>
+
+    <div>
+        <button>
+            <a href="https://aulasvirtuales.frba.utn.edu.ar/" target="_blank">Ruta Absoluta</a>
+        </button>
+    </div>
+
+    <img>
+</body>
+</html>
