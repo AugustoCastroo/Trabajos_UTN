@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-rows: 60px min-content 600px;
+}  
+nav{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+nav img{
+    height: 60px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    width: 60%;
+}
+li{
+    text-decoration: none;
+}
+.link_nav{
+    color: black;
+    background-color: lightsalmon;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+a:visited{
+    color: black;
+}
+.home_section_presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(51, 50, 50);
+    align-items: center;
+    gap: 20px;
+}
+.home_section_presentacion h1{
+    color: black;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+.home_section_presentacion .home_contenedor_escudos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.escudos_izquierda_home{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.escudos_izquierda_home img{
+    width: 200px;
+}
+.escudos_medio_home{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.escudos_medio_home img{
+    width: 300px;
+}
+.escudos_derecha_home{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.escudos_derecha_home img{
+    width: 200px;
+}
+.home_section_presentacion p{
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+.home_contenedor_imagen_messi{
+    display: flex;
+    justify-content: center;
+}
+.home_contenedor_imagen_messi img{
+    width: 900px;
+}
+footer {
+    height: 600px;
+    background: linear-gradient(to bottom, rgb(51, 50, 50), black 20%);
+    padding-top: 15%;
+    color: white;
+}
+footer h2{
+    font-size: 30px;
+}
+  

@@ -3,48 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Futbol/css/styles.css">
     <title>Fútbol</title>
 </head>
 <body>
     <header>
         <nav>
+            <a href="index.html"><img src="img/logo_afa.png" alt="Logo de la Asociacion de Futbol Argentino"></a>
             <ul>
                 <li>
-                    <a href="Clase1/pages/tomba.html">Godoy Cruz</a>
+                    <a class="link_nav" href="index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="Clase1/pages/river.html">River Plate</a>
+                    <a class="link_nav" href="Futbol/pages/tomba.html">Godoy Cruz</a>
                 </li>
                 <li>
-                    <a href="Clase1/pages/boca.html">Boca Juniors</a>
+                    <a class="link_nav" href="Futbol/pages/river.html">River Plate</a>
                 </li>
                 <li>
-                    <a href="Clase1/pages/independiente.html">Independiente</a>
+                    <a class="link_nav" href="Futbol/pages/boca.html">Boca Juniors</a>
+                </li>
+                <li>
+                    <a class="link_nav" href="Futbol/pages/independiente.html">Independiente</a>
                 </li>
             </ul>
         </nav>
     </header>
-        <section>
-            <h1>Fútbol</h1>
-            <p>
-                El fútbol es un deporte de equipo jugado entre dos conjuntos de 11 jugadores cada uno y un árbitro que se ocupa de que las normas se cumplan correctamente. Es ampliamente considerado el deporte más popular del mundo, pues lo practican unas 270 millones de personas.
-            </p>
-            <article>
-                <h1>Boca Juniors</h1>
-                <img src="./img/escudo boca.png" alt="Icono de Boca Juniors" height="200">
-            </article>
-            <article>
-                <h1>River Plate</h1>
-                <img src="./img/river-plate-logo-4.png" alt="Icono de River Plate" height="200">
-            </article>
-            <article>
-                <h1>Godoy Cruz</h1>
-                <img src="./img/logo-godoy-cruz-4096.png" alt="Icono de Godoy Cruz" height="200">
-            </article>
-            <article>
-                <h1>Independiente</h1>
-                <img src="./img/independiente_logo.svg" alt="Icono de Independiente" height="200">
-            </article>  
+    <main>
+        <section class="home_section_presentacion">
+            <h1>Equipos de la Primera División de Argentina</h1>
+            <div class="home_contenedor_escudos">
+                <div class="escudos_izquierda_home">
+                    <img src="img/escudo boca.png" alt="Escudo de Boca Juniors">
+                    <img src="img/independiente_logo.svg" alt="Escudo de Independiente">
+                </div>
+                <div class="escudos_medio_home">              
+                    <img src="img/logo_afa.png" alt="Logo de la AFA">
+                </div>
+                <div class="escudos_derecha_home">
+                    <img src="img/logo-godoy-cruz-4096.png" alt="Escudo de Godoy Cruz">
+                    <img src="img/river-plate-logo-4.png" alt="Escudo de River Plate">
+                </div>
+            </div>
+            <p>La Primera División de Argentina es el torneo de la primera categoría del fútbol masculino argentino, organizado desde 1893 por la Asociación del Fútbol Argentino, excepto entre las temporadas 2017-18 y 2019-20, cuando fue regido por la Superliga Argentina. Disuelta esta, la Asociación creó el órgano interno denominado Liga Profesional de Fútbol Argentino, a través del cual retomó su conducción. Es el máximo escalón del sistema de competiciones del fútbol masculino en el país.</p>
+            <div class="home_contenedor_imagen_messi">
+                <img src="img/messi_home.png" alt="">
+            </div>
         </section>
+    </main>
+    <footer>
+        <h2>Seguinos</h2>
+        <div class="footer_contenedor_redes">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </footer>
 </body>
 </html>
